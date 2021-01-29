@@ -1,0 +1,13 @@
+﻿  uic Form\BurrDetectorForm.ui
+  uic Form\QtTest.ui
+  rcc Form\QtTest.qrc
+  moc Form\QtTest.h
+  moc Form\BurrDetectorForm.h
+  moc BasicItem\ImageGraphicView.h
+  ImageGraphicView.cpp
+  BurrDetector.cpp
+  BurrDetectorForm.cpp
+  QtTest.cpp
+  main.cpp
+d:\cx_dir\qttest\qttest\qttest\basicitem\imagegraphicview.cpp(4): error C2664: “QGraphicsView::QGraphicsView(const QGraphicsView &)”: 无法将参数 1 从“QObject *”转换为“QWidget *”
+  d:\cx_dir\qttest\qttest\qttest\basicitem\imagegraphicview.cpp(5): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
